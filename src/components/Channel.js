@@ -4,7 +4,6 @@ import firebase from 'firebase/app';
 import { useFirestoreQuery } from '../hooks';
 // Components
 import Message from './Message';
-import { Editor } from "@tinymce/tinymce-react";
 
 const Channel = ({ user = null }) => {
   const db = firebase.firestore();
